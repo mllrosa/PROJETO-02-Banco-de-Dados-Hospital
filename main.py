@@ -12,7 +12,7 @@ cursor = banco.cursor()
 # print(cursor.fetchall())
 
 # # 3) Mostrar o nome e plano de saúde dos pacientes atendidos pelo plano Unimed.
-# cursor.execute("SELECT nome, plano_saude FROM pacientes")
+# cursor.execute("SELECT nome, plano_saude FROM pacientes WHERE plano_saude = 'Unimed'")
 # print(cursor.fetchall())
 
 # # 4) Selecionar os pacientes ordenados pela data de internação (mais antiga primeiro).
